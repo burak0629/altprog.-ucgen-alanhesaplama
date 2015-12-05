@@ -1,32 +1,11 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
+#include<stdio.h>
+double alanhesap(int,int);
+void main(){
+int taban,yuksek;
+scanf("%d%d",&yuksek,&taban);
+printf("sonuc=%f",alanhesap(yuksek,taban));
+getch();
+}
+double alanhesap(int yuksek, int taban){
+return (taban * yuksek)/2.0;
+}
