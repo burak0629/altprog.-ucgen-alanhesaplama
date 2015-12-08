@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main(){
+int s1,s2,toplam;
+scanf("%d %d",&s1,&s2);
+toplam=topla(s1,s2);
+printf("sonuc=%d",toplam);
+getch();
+}
+int topla(int s1,int s2){
+int sonuc;
+sonuc=s1+s2;
+return sonuc;
+}
